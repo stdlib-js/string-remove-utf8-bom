@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-remove-utf8-bom",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Remove a UTF-8 byte order mark (BOM) from the beginning of a string.",
   "license": "Apache-2.0",
   "author": {

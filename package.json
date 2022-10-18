@@ -51,7 +51,7 @@
     "@stdlib/assert-is-browser": "^0.0.x",
     "@stdlib/assert-is-windows": "^0.0.x",
     "@stdlib/bench": "^0.0.x",
-    "@stdlib/buffer-ctor": "^0.0.x",
+    "@stdlib/buffer-from-string": "^0.0.x",
     "@stdlib/process-exec-path": "^0.0.x",
     "@stdlib/string-from-code-point": "^0.0.x",
     "@stdlib/string-replace": "^0.0.x",

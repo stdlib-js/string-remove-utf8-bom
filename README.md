@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@deno/mod.js';
+import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@v0.1.0-deno/mod.js';
 ```
 
 #### removeUTF8BOM( str )
@@ -71,7 +71,7 @@ var str = removeUTF8BOM( '\ufeffbeep' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@deno/mod.js';
+import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@v0.1.0-deno/mod.js';
 
 var str = removeUTF8BOM( '\ufeffbeep' );
 // returns 'beep'

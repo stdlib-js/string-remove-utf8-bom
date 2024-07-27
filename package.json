@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/string-remove-utf8-bom",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Remove a UTF-8 byte order mark (BOM) from the beginning of a string.",
   "license": "Apache-2.0",
   "author": {
@@ -40,18 +40,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-string": "^0.2.1",
-    "@stdlib/cli-ctor": "^0.2.1",
-    "@stdlib/fs-read-file": "^0.2.1",
+    "@stdlib/assert-is-string": "^0.2.2",
+    "@stdlib/cli-ctor": "^0.2.2",
+    "@stdlib/fs-read-file": "^0.2.2",
     "@stdlib/process-read-stdin": "^0.2.1",
-    "@stdlib/streams-node-stdin": "^0.2.1",
-    "@stdlib/string-format": "^0.2.1",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
+    "@stdlib/streams-node-stdin": "^0.2.2",
+    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.1",
-    "@stdlib/assert-is-windows": "^0.2.1",
-    "@stdlib/buffer-from-string": "^0.2.1",
+    "@stdlib/assert-is-windows": "^0.2.2",
+    "@stdlib/buffer-from-string": "^0.2.2",
     "@stdlib/process-exec-path": "^0.2.1",
     "@stdlib/string-from-code-point": "^0.2.1",
     "@stdlib/string-replace": "^0.2.1",

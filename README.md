@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+removeUTF8BOM = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-remove-utf8-bom/tags). For example,
+
+```javascript
 removeUTF8BOM = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@v0.2.2-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var removeUTF8BOM = require( 'path/to/vendor/umd/string-remove-utf8-bom/index.js
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -98,7 +103,7 @@ var str = removeUTF8BOM( '\ufeffbeep' );
 <!DOCTYPE html>
 <html lang="en">
 <body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 

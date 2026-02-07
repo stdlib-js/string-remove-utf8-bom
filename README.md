@@ -48,6 +48,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-remove-utf8-bom/tags). For example,
+
+```javascript
 import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@v0.2.3-deno/mod.js';
 ```
 
@@ -71,7 +76,7 @@ var str = removeUTF8BOM( '\ufeffbeep' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@v0.2.3-deno/mod.js';
+import removeUTF8BOM from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-remove-utf8-bom@deno/mod.js';
 
 var str = removeUTF8BOM( '\ufeffbeep' );
 // returns 'beep'
